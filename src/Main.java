@@ -8,8 +8,8 @@ public class Main {
 //        solveSecond();
 //        solveThird();
 //        solveFourth();
-          solveFifth();
-
+//        solveFifth();
+        solveSixth();
     }
 
     private static void solveFirst() {
@@ -53,6 +53,14 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         int result = Fifth.fibonacci(n);
+        System.out.println(result);
+
+    }
+    private static void solveSixth(){
+        Scanner scanner = new Scanner(System.in);
+        double a = scanner.nextDouble();
+        int n = scanner.nextInt();
+        double result = Sixth.power(a, n);
         System.out.println(result);
 
     }
