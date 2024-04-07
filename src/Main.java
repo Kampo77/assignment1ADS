@@ -12,8 +12,8 @@ public class Main {
 //        solveSixth();
 //         solveSeventh();
 //        solveEighth();
-         solveNinth();
-//        solveTenth();
+//         solveNinth();
+          solveTenth();
     }
 
     private static void solveFirst() {
