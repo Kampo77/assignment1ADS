@@ -9,7 +9,11 @@ public class Main {
 //        solveThird();
 //        solveFourth();
 //        solveFifth();
-        solveSixth();
+//        solveSixth();
+         solveSeventh();
+//        solveEighth();
+//        solveNinth();
+//        solveTenth();
     }
 
     private static void solveFirst() {
@@ -56,7 +60,8 @@ public class Main {
         System.out.println(result);
 
     }
-    private static void solveSixth(){
+
+    private static void solveSixth() {
         Scanner scanner = new Scanner(System.in);
         double a = scanner.nextDouble();
         int n = scanner.nextInt();
@@ -64,4 +69,14 @@ public class Main {
         System.out.println(result);
 
     }
+
+    private static void solveSeventh() {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        scanner.nextLine();
+        Seventh.reverse(scanner, n);
+    }
+
+
 }
+
