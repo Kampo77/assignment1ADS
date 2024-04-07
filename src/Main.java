@@ -10,9 +10,9 @@ public class Main {
 //        solveFourth();
 //        solveFifth();
 //        solveSixth();
-         solveSeventh();
+//         solveSeventh();
 //        solveEighth();
-//        solveNinth();
+         solveNinth();
 //        solveTenth();
     }
 
@@ -77,6 +77,17 @@ public class Main {
         Seventh.reverse(scanner, n);
     }
 
+    private static void solveEighth() {
+        Scanner scanner = new Scanner(System.in);
+    }
+
+    private static void solveNinth() {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int k = scanner.nextInt();
+        int result = Ninth.binomialCoefficient(n, k);
+        System.out.println(result);
+    }
 
 }
 
