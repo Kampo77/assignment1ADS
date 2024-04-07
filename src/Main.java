@@ -6,8 +6,9 @@ public class Main {
     public static void main(String[] args) {
 //        solveFirst();
 //        solveSecond();
-//          solveThird();
-        solveFourth();
+//        solveThird();
+//        solveFourth();
+          solveFifth();
 
     }
 
@@ -40,10 +41,19 @@ public class Main {
             System.out.println(n + " is composite");
         }
     }
+
     private static void solveFourth() {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
         long result = Fourth.factorial(n);
         System.out.println(result);
+    }
+
+    private static void solveFifth() {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int result = Fifth.fibonacci(n);
+        System.out.println(result);
+
     }
 }
