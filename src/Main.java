@@ -6,7 +6,8 @@ public class Main {
     public static void main(String[] args) {
 //        solveFirst();
 //        solveSecond();
-          solveThird();
+//          solveThird();
+        solveFourth();
 
     }
 
@@ -38,5 +39,11 @@ public class Main {
         } else {
             System.out.println(n + " is composite");
         }
+    }
+    private static void solveFourth() {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        long result = Fourth.factorial(n);
+        System.out.println(result);
     }
 }
