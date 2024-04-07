@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 //        solveFirst();
-        solveSecond();
+//        solveSecond();
+          solveThird();
+
     }
 
     private static void solveFirst() {
@@ -28,4 +30,13 @@ public class Main {
         System.out.println(Second.findAvg(n, arr));
     }
 
+    private static void solveThird() {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        if (Third.isPrime(n)) {
+            System.out.println(n + " is prime");
+        } else {
+            System.out.println(n + " is composite");
+        }
+    }
 }
