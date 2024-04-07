@@ -12,8 +12,8 @@ public class Main {
 //        solveSixth();
 //         solveSeventh();
 //        solveEighth();
-//         solveNinth();
-          solveTenth();
+         solveNinth();
+//        solveTenth();
     }
 
     private static void solveFirst() {
@@ -88,6 +88,13 @@ public class Main {
         int result = Ninth.binomialCoefficient(n, k);
         System.out.println(result);
     }
+    private static void solveTenth() {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
 
+        int result = Tenth.gcd(a, b);
+        System.out.println(result);
+    }
 }
 
