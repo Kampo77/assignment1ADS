@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//        solveFirst();
+        solveFirst();
 //        solveSecond();
 //        solveThird();
 //        solveFourth();
@@ -12,7 +12,7 @@ public class Main {
 //        solveSixth();
 //         solveSeventh();
 //        solveEighth();
-         solveNinth();
+//         solveNinth();
 //        solveTenth();
     }
 
